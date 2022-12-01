@@ -67,7 +67,7 @@ body {
     color: var(--brand-color);
 }
 
-/* Main */
+/* Main studio page*/
 
 .hero {
     background-color: var(--footer-bgn-color);
@@ -122,6 +122,9 @@ body {
 .team-job-title {
     color: var(--secondary-text-color);
 }
+
+
+/* Portfolio page */
 
 .portfolio-button {
     color: var(--brand-color);
