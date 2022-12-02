@@ -1,0 +1,157 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --white-text-color: #FFFFFF;
+    --white-bgn-color: #FFFFFF;
+    --primary-bgn-color: #E5E5E5;
+    --secondary-bgn-color: #F4F4FD;
+    --footer-bgn-color: #2E2F42;
+    --footer-logo-color: #F4F4FD;
+    --footer-text-color: #E7E9FC;
+    --brand-color: #4D5AE5;
+
+
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--white-bgn-color);
+}
+
+/* Header */
+
+.header {
+    
+}
+
+.logo {
+    
+
+}
+
+.logo-web {
+    color: #4D5AE5;
+}
+
+.navigation {
+    
+}
+
+.navigation-item:hover,
+.navigation-item:focus {
+    color: var(--brand-color);
+}
+
+.navigation-item:visited {
+    color: var(--secondary-text-color);
+}
+
+.contacts {
+    color: var(--secondary-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--brand-color);
+}
+
+/* Main */
+
+.hero {
+    background-color: var(--footer-bgn-color);
+}
+
+.hero-title {
+    color: var(--white-text-color);
+}
+
+.hero-button {
+    color: var(--white-text-color);
+    background-color: var(--brand-color);
+}
+
+.features {
+
+}
+
+.features-title {
+  
+}
+
+.features-text {
+    color: var(--secondary-text-color);
+}
+
+.work {
+    
+}
+
+.work-title {
+    
+}
+
+.team {
+    background-color: var(--secondary-bgn-color);
+}
+
+.team-title {
+    
+}
+
+.team-card {
+    background-color: var(--white-bgn-color);
+}
+
+.team-member {
+    
+}
+
+.team-job-title {
+    color: var(--secondary-text-color);
+}
+
+.portfolio {
+   
+}
+
+.portfolio-button {
+    color: var(--brand-color);
+    background-color: var(--secondary-bgn-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--white-text-color);
+    background-color: var(--brand-color);
+}
+
+.portfolio-list {
+    
+}
+
+.portfolio-item {
+    background-color: var(--secondary-bgn-color);
+}
+
+.portfolio-title{
+    
+}
+
+.portfolio-title-text {
+   
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--footer-bgn-color);
+}
+
+.footer-logo {
+    color: var(--footer-logo-color);
+}
+
+.footer-text {
+    color: var(--footer-text-color);
+}
