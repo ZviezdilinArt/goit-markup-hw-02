@@ -8,6 +8,7 @@
     --footer-bgn-color: #2E2F42;
     --footer-logo-color: #F4F4FD;
     --footer-text-color: #E7E9FC;
+    --border-color:#E7E9FC;
     --brand-color: #4D5AE5;
     --line-height-text: 1.5;
     --font-weight-primary: 600;
@@ -17,7 +18,7 @@
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     line-height: var(--line-height-text);
     color: var(--primary-text-color);
@@ -48,6 +49,8 @@ body {
 
 .navigation-item, .logo, .contacts {
     text-decoration: none;
+    font-weight: 500;
+    color: var(--primary-text-color);
 }
 
 .navigation-item:hover,
@@ -133,16 +136,13 @@ body {
     letter-spacing: 0.04em;
     font-size: var(--font-size-primary);
     cursor: pointer;
+    border: var(--border-color);
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: var(--white-text-color);
     background-color: var(--brand-color);
-}
-
-.portfolio-item {
-    background-color: var(--secondary-bgn-color);
 }
 
 .portfolio-title{
