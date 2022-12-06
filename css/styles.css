@@ -75,12 +75,13 @@ body {
 
 .hero {
     background-color: var(--footer-bgn-color);
-    line-height: 1.07;
-    font-size: 56px;
+    
 }
 
 .hero-title {
     color: var(--white-text-color);
+    line-height: 1.07;
+    font-size: 56px;
 }
 
 .hero-button {
