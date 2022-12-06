@@ -74,8 +74,7 @@ body {
 /* Main studio page*/
 
 .hero {
-    background-color: var(--footer-bgn-color);
-    
+    background-color: var(--footer-bgn-color);  
 }
 
 .hero-title {
